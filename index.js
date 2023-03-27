@@ -16,7 +16,7 @@ app.get("/",(req,res)=>{
 
 app.use("/user",userrouter);
 
-// app.use(authenticate)
+app.use(authenticate)
 
 
 app.use("/weather",weatherrouter)
